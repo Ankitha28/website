@@ -1,0 +1,29 @@
+.bg1{
+	background-color: rgba(255, 0, 0, 0.6);
+}
+.r1{
+	font-family: Times New Roman;
+	text-decoration: underline;
+	padding: 30px;
+}
+.bg2{
+	background-color: #DCDCDC;
+	margin-top: -1%;
+	padding: 20px 0px;
+}
+.c1{
+	margin:0px 90px;
+}
+	
+.f2{
+	border-radius: 5px;
+	margin:0px 200px;
+	padding: 30px;
+
+}
+.p2{
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Times New Roman;
+}

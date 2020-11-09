@@ -1,0 +1,67 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.bgimage{
+	background-image:url("../images/dash.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	width: 100%;
+	
+}
+.menu{
+	position: relative;
+	width: 90%;    
+    z-index: 9999;
+}
+.my-navbar{
+	width: 100%;
+	padding: 20px 20px;
+	background-color: #66CDAA;
+	position: absolute;
+    top:20px;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0px 2px 10px black;
+    border-radius: 5px;
+}
+
+.my-navbar.blue{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #0C6980;
+	padding:5px 20px;
+}
+
+
+.nav-item  .nav-link{
+	font-family: arial;
+	font-size: 15px;
+	color: #191970;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0px 13px;
+	position: relative;  
+	transition: 0.5s ease;
+
+}
+.my-navbar.blue .nav-item  .nav-link{
+	color:#2EB5E0;
+	font-size: 16px;
+}
+.nav-item  .nav-link:hover{
+	background-color: #87CEEB;
+	transform: scale(1.1);
+}
+.navbar-brand{
+	text-transform: uppercase;
+	font-family: arial;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: bold;
+	color: #191970;
+}

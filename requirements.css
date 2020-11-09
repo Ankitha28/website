@@ -1,0 +1,59 @@
+.c2{
+	width: 1200px;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.container .box1{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background-color: yellow;
+  margin:12px;
+  display: inline-block;
+
+}
+
+.container .box1 .imgb{
+	
+	overflow: hidden;
+}
+.container .box1 .imgb img{
+	width: 100%;
+	transition: 0.5s ease;
+}
+.container .box1:hover .imgb img{
+     transform: scale(1.2);
+}
+.container .box1 .content{
+	position: absolute;
+	background-color: rgba(0,0,0,0.8);
+	top: 5px;
+	right: 5px;
+	bottom:5px;
+	left: 5px;
+	transform: scaleY(0);
+	transition: 0.5s ease;
+}
+.container .box1:hover .content{
+	transform: scaleY(1);
+}
+.container .box1 .content h2{
+	text-align: center;
+	font-family: Times New Roman;
+	font-weight: bold;
+    color: white;
+    padding-top: 15px;
+
+}
+.container .box1 .content p{
+	font-family: Georgia;
+	font-style: italic;
+	color:white;
+	text-align: center;
+	font-size: 20px;
+
+}
+
